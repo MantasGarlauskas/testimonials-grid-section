@@ -31,7 +31,6 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 - Live Site URL: [Solution link](https://mantasgarlauskas.github.io/testimonials-grid-section/)
 
-
 ## My process
 
 ### Built with
