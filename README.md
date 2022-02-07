@@ -21,11 +21,11 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ### Screenshot Desktop ver.
 
-![](./image/screenshot_desktop.png)
+![](./screenshot_desktop.png)
 
 ### Screenshot Mobile ver.
 
-![](./image/screenshot_mobile.png)
+![](./screenshot_mobile.png)
 
 ### Links
 
