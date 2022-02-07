@@ -21,16 +21,16 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ### Screenshot Desktop ver.
 
-![](./image/screenshot_desktop.png)
+![](./screenshot_desktop.png)
 
 ### Screenshot Mobile ver.
 
-![](./image/screenshot_mobile.png)
+![](./screenshot_mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Solution link](https://mantasgarlauskas.github.io/testimonials-grid-section/)
+
 
 ## My process
 
