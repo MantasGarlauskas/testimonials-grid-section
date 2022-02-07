@@ -1,0 +1,113 @@
+:root {
+    --clr-primary-400: 263 55% 52%;
+    --clr-secondary-400: 217 19% 35%;
+    --clr-secondary-500: 219 29% 14%;
+    --clr-neutral-50: 0 0% 50%;
+    --clr-neutral-100: 0 0% 100%;
+    --clr-neutral-200: 210 46% 95%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: hsl(var(--clr-neutral-200));
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    line-height: 1.5;
+}
+
+.grid--container {
+    display: grid;
+    gap: 1.5rem;
+    padding-block: 2rem;
+    width: min(95%, 70rem);
+    margin-inline: auto;
+}
+
+.card {
+    border-radius: 0.5rem;
+    padding: 2rem;
+    box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(var(--clr-secondary-400) / 0.25);
+    font-size: 0.8125rem;
+}
+
+.card__img {
+    max-height: 2.125rem;
+    display: block;
+    border-radius: 50%;
+    border: hsl(var(--clr-neutral-100)) 1px solid;
+    margin-right: 1rem;
+}
+
+.flex {
+    display: flex;
+    padding-bottom: 1rem;
+    align-items: center;
+}
+
+.card.bg-blue {
+    background: hsl(var(--clr-primary-400));
+}
+
+.card.bg-grey {
+    background: hsl(var(--clr-secondary-400));
+}
+
+.card.bg-balck {
+    background: hsl(var(--clr-secondary-500));
+}
+
+.card.bg-white {
+    background: hsl(var(--clr-neutral-100));
+}
+
+.text-clr-white-100 {
+    color: hsl(var(--clr-neutral-100));
+}
+
+.text-clr-dark-100 {
+    color: hsl(var(--clr-secondary-500));
+}
+
+.text-clr-dark-50 {
+    color: hsl(var(--clr-secondary-500));
+    opacity: 0.7;
+}
+
+.text-clr-white-50 {
+    color: hsl(var(--clr-neutral-100));
+    opacity: 0.5;
+}
+
+.card__quote {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.card.quote {
+    background-image: url('./images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position: top right 10%;
+}
+
+@media (min-width: 768px) {
+    .grid--container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .card:last-child {
+        grid-column-start: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    .grid-col-span-2 {
+        grid-column: span 2;
+    }
+}
