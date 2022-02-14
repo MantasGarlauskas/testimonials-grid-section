@@ -47,5 +47,4 @@ Repeated HTML markup, CSS grid and mobile responsive.
 ## Author
 
 - Website - [Github](https://github.com/MantasGarlauskas)
-- Frontend Mentor - [@MantasGarlauskas](https://www.frontendmentor.io/profile/yourusername)
 - Linkedin - [@MantasGarlauskas](https://www.linkedin.com/in/mantasgarlauskas/)
